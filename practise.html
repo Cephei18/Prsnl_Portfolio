@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Text</title>
+  <style>
+    /* Add a linear gradient to the text */
+    .gradient-text {
+      background-image: linear-gradient(to right, #ffcc00, #ff6666);
+      color: transparent;
+      -webkit-background-clip: text; /* For WebKit browsers like Chrome and Safari */
+      background-clip: text;
+    }
+
+    /* Add some styling to the container for better visibility */
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="gradient-text">
+    <h1>Your Gradient Text</h1>
+  </div>
+</body>
+</html>
+
+
